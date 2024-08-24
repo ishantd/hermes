@@ -2,35 +2,6 @@
 
 This repository contains the backend and frontend code for Hermes, a chat-based application. The backend is built using Python (FastAPI), and the frontend is built using React and TypeScript. The application is deployed with Docker Compose, ensuring an easy and consistent development and deployment process.
 
-## Table of Contents
-
-- Project Structure
-- Requirements
-- Setup Instructions
-  - 1. Clone the Repository
-  - 2. Environment Variables
-  - 3. Build and Run with Docker Compose
-  - 4. Accessing the Application
-- Deployment
-- Contact
-
-## Project Structure
-
-.
-├── backend             # Backend service (FastAPI)
-│   ├── app             # Application source code
-│   ├── example.env     # Example environment variables file for backend
-│   ├── Dockerfile      # Dockerfile for backend
-│   └── requirements.txt# Python dependencies
-│
-├── frontend            # Frontend service (React + TypeScript)
-│   ├── src             # Frontend source code
-│   ├── Dockerfile      # Dockerfile for frontend
-│   └── .env.example    # Example environment variables file for frontend
-│
-├── docker-compose.yml  # Docker Compose configuration file
-└── README.md           # This file
-
 ## Requirements
 
 - Docker
